@@ -1,17 +1,10 @@
 import React from "react";
 import Card from "./Card";
-
+import "../DashboardBody.css";
 const CardList = ({ list }) => {
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          gap: "15px",
-          width: "100%",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="cardlist">
         {list.map((el) => (
           <Card el={el} />
         ))}

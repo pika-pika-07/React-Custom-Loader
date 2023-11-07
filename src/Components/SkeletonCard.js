@@ -4,15 +4,7 @@ import Skeleton from "./Skeleton";
 import "../SkeletonCard.css";
 const SkeletonCard = ({ loaderType }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "15px",
-        width: "100%",
-        height: "100%",
-      }}
-    >
+    <div className="main-container">
       {Array.from({ length: 14 }).map((el) => (
         <div className="product-container">
           {loaderType == 1 ? (
