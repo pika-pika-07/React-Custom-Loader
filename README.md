@@ -24,6 +24,8 @@ This is a custom react loader component
 ```
 - This is a very basic skeleton. This will create 3 bars vertically and animate them
 - We can wrap this in a container to customize according to the requriments
+- We can build a fully customizable loader combining multiple skeleton components
+- This way we can have individual Skeletons for a larger loading component 
 - Below is the sample I have created which has 2 different types of loaders
 ```
  {Array.from({ length: 14 }).map((el) => (
@@ -58,4 +60,8 @@ This is a custom react loader component
   - baseColor: If you want to change the default base color of the bar
   - loadingColor: If you want to change the default loading color of the bar
 
+
+## App Hosted on Netlify(https://my-react-custom-loader.netlify.app/)
+- App is hosted on netlify (https://my-react-custom-loader.netlify.app/)
+- Feel free to check it out
 
